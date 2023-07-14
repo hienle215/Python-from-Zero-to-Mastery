@@ -1,0 +1,6 @@
+### The first lesson for getting used to Python
+print("Hana Le")
+input("What is your name?")
+name = input("What is your name?")
+print(name)
+print("Hello" + name)
