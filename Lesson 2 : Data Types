@@ -1,0 +1,18 @@
+# Fundamental Data Type in Python
+int
+float # for numbers
+bool
+str # for letters
+list
+tuple
+set
+dict
+
+# Classess -> custom types
+SuperCar # creat by Ourown
+
+# Specialized Data Types
+Modules # as extended languages
+
+# None
+None # nothing or absent of values
