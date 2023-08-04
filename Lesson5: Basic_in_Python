@@ -1,0 +1,74 @@
+# operator precedence
+20+3*4
+print(20-3*4)
+print((20-3)+2**2)
+
+# ()
+# **
+# */
+# + -
+
+# complex
+# int float
+print(bin(5)) # binary number 5
+
+print(int("0B101", 10))
+print(int("0B101", 2)) # convert bionary number to the integer
+
+iq = 190
+
+print(iq)
+iq=190
+user_age = iq/4
+a = user_age
+print(a)
+
+a,b,c = 1,2,3
+print(a)
+print(b)
+print(c)
+
+iq = 100
+user_age = iq/5
+
+### augmented assignment operator
+some_value = 5 # the first definitation
+some_value = some_value+2
+print(some_value)
+some_value += 2
+print(some_value) # another way to extract a new value of some_value object
+
+### string data type
+"hi hello there"
+type("hi hello there 23")
+print(type("hi hello there 23"))
+
+username = "supercoder"
+password = "supersecret"
+long_string = """
+00
+wow
+"""
+print(long_string)
+first_name = "Andrei"
+last_name = "Neagoie"
+full_name = first_name+""+lastname
+print(full_name)
+
+# string concatenation
+"hello" + "Andrei"
+print("hello"+"Andrei")
+
+# escape sequence
+weather = "It is sunny"
+
+# formatted strings
+name = "Johnny"
+age = 55
+print(f"hi{name}.You are{age}years old")
+
+# tracking data
+selfish = "01234567"
+print(selfish[-1])
+print(selfish[::-2])
+
