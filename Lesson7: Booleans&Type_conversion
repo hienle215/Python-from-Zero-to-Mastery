@@ -1,0 +1,19 @@
+#boleans
+name = "Andrei"
+is_cool = False
+is_cool = True
+print(bool("True"))
+
+# conversion
+name = "Adrei Neagoie"
+age = 50
+relationship_status = "single"
+relationship_status = "it\´s complicated"
+print(relationship_status)
+
+#exercise
+birth_year = input("what year were you born?")
+print(type(birth_year))
+age = 2024 - int(birth_year)
+print(f"your age is: {age}")
+
