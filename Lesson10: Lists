@@ -1,0 +1,22 @@
+amazon_cart = ["hotenooks", "sunglasses"]
+print(amazon_cart)
+print(amazon_cart[2])
+print(amazon_cart[0])
+
+#list slicing
+
+#string slicing
+"helloo"
+string = "heloo"
+string[0:2:1]
+
+# list slicing
+amazon_cart = ["notebooks", "sunglasses", "toys", "grapes"]
+print(amazon_cart[0::2])
+greet = "heloo"
+amazon_cart[0] = "laptop"
+print(amazon_cart)
+amazon_cart = amazon_Cart[:]
+new_Cart[0] = "gum"
+print(new_cart)
+print(amazon_cart)
