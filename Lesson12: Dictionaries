@@ -18,3 +18,31 @@ print(dictionary[123])
 print(dictionary[True]) # key need to be unique
 
 # dictionary methods
+user = {"basket" : [1,2,3], "great" : "hello"}
+print(user.get("age", 55)) # adding more info in dictionary
+
+user2 = dict("name" = "JohnJohn")
+print(user2)
+
+user2 = dict(name = "JohnJohn")
+print(user2)
+
+
+# dictionary methods 2
+user = {"basket" : [1,2,3], "great": "hello", "age": 20}
+print("basket" in user)
+print("size" in user)
+print("hello" in user.values())
+print(user.items())
+print(user.clear())
+user.clear()
+user2 = user.copy()
+print(user2)
+print(user.clear())
+print(user2)
+print(user.pop("age"))
+print(user)
+print(user.popitem()) # sometimes reomove some paris of values
+print(user.update({"age":55))
+print(user)
+
